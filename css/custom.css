@@ -2,3 +2,6 @@
     margin: 15px;
     height: min-content;
 }
+.white-text {
+    color: white !important;
+}
