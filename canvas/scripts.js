@@ -20,7 +20,7 @@ const numberOfCircles = 150
 let circles = [];
 let nameDots = [];
 const nameDotsStartLocation = 
-    {x: 100,
+    {x: 500,
     y: 100}
 ;
 // Mouse class
