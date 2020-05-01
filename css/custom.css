@@ -5,8 +5,15 @@
 .white-text {
     color: white !important;
 }
+.awake .white-text {
+    color: black !important;
+}
 canvas {
     position: absolute;
     background: rgb(2,0,36);
     background: linear-gradient(349deg, rgba(2,0,36,1) 0%, rgba(0,136,255,1) 100%);
+}
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: pan-y !important;
+    touch-action: pan-y !important;
 }
